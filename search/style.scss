@@ -3,7 +3,7 @@
 }
 @mixin btn-search() {
     text-transform: capitalize;
-    width: 150px;
+    width: 170px;
     margin: 10px;
     transition: 300ms;
     &:hover{
@@ -31,6 +31,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    button{
+        @include btn-search
+    }
     .head{
         padding-top: 5rem;
     }

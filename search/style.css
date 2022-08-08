@@ -17,7 +17,7 @@
 }
 .other button {
   text-transform: capitalize;
-  width: 150px;
+  width: 170px;
   margin: 10px;
   transition: 300ms;
 }
@@ -31,6 +31,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.container button {
+  text-transform: capitalize;
+  width: 170px;
+  margin: 10px;
+  transition: 300ms;
+}
+.container button:hover {
+  color: blue;
+  background-color: #fff;
 }
 .container .head {
   padding-top: 5rem;
@@ -48,7 +58,7 @@
 }
 .container .middle input[type=submit] {
   text-transform: capitalize;
-  width: 150px;
+  width: 170px;
   margin: 10px;
   transition: 300ms;
 }
