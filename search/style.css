@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.other.to-google {
+  margin-left: 20px;
+  margin-right: auto;
+}
+.other button {
+  text-transform: capitalize;
+  width: 150px;
+  margin: 10px;
+  transition: 300ms;
+}
+.other button:hover {
+  color: blue;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .head {
+  padding-top: 5rem;
+}
+.container .middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .middle input[type=text] {
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 3px 10px;
+}
+.container .middle input[type=submit] {
+  text-transform: capitalize;
+  width: 150px;
+  margin: 10px;
+  transition: 300ms;
+}
+.container .middle input[type=submit]:hover {
+  color: blue;
+  background-color: #fff;
+}
+
+.advaced h1, .advaced h3 {
+  text-align: left;
+}
+.advaced .middle .row div:first-child {
+  text-align: left;
+  font-size: 13px;
+}
+.advaced .middle input[type=submit] {
+  margin: 10px 10px 10px auto;
+}/*# sourceMappingURL=style.css.map */
