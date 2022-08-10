@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+body .container {
+  display: flex;
+  justify-content: center;
+}
+body .card.my-card {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  max-width: 550px;
+}
+body .card.my-card .search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+body .card.my-card .search .fa-solid.fa-magnifying-glass {
+  background-color: rgba(89, 86, 86, 0.35);
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.6980392157);
+  cursor: pointer;
+}
+body .card.my-card .search .btn {
+  padding: 0;
+}
+body .card.my-card .text {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 0.3rem 1rem;
+  color: rgba(255, 255, 255, 0.6980392157);
+  background-color: rgba(89, 86, 86, 0.35);
+}
+body .card.my-card .content {
+  transition: 300ms;
+  height: 0;
+  padding-top: 10px;
+  overflow: hidden;
+}
+body .card.my-card .content .icon-desc {
+  display: flex;
+  align-items: center;
+}
+body .card.my-card .content .icon-desc img {
+  max-width: 50px;
+}
+body .card.my-card .content .icon-desc p {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
