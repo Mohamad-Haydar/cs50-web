@@ -21,7 +21,7 @@ navigator.geolocation.getCurrentPosition(success, error, options)
 
 // display the weather for the current position
 let weatherHere = {
-    "apikey": "9fdda83d3389f300764029533e7ca857",
+    "apikey": "", // put here the key
     fetchWeather: function() {
         fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${this.apikey}`)
         .then((responce) => responce.json())
@@ -47,7 +47,7 @@ let weatherHere = {
 
 // get the weather when search
 let weather = {
-    "apikey": "9fdda83d3389f300764029533e7ca857",
+    "apikey": "", //put here the key
     fetchWeather: function(city) {
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${this.apikey}`)
         .then((responce) => responce.json())
