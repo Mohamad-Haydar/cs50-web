@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #ccc;
+}
+.page .container {
+  display: flex;
+  justify-content: center;
+}
+.page .box {
+  background-color: #fff;
+  padding: 1.5rem;
+  max-width: 650px;
+  box-shadow: 0px 0px 6px 3px rgba(83, 77, 77, 0.2392156863);
+  border-radius: 10px;
+}
+.page .box h2 {
+  margin-bottom: 1.5rem;
+}
+.page .box .answers .answer {
+  margin-bottom: 1rem;
+}
+.page .box .answers .answer label {
+  margin-left: 1rem;
+}
+.page .box .submit {
+  display: inline-block;
+  margin-left: auto;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.page .box .foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.page .finalbox {
+  background-color: #fff;
+  text-align: center;
+  padding: 1rem 3rem;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+.page .finalbox .loser {
+  color: red;
+}
+.page .finalbox .winner {
+  color: green;
+}/*# sourceMappingURL=style.css.map */
